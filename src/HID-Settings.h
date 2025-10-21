@@ -73,6 +73,9 @@ THE SOFTWARE.
 #define HID_REPORTID_SURFACEDIAL 10
 #endif
 
+#ifndef HID_REPORTID_SIMPIT
+#define HID_REPORTID_SIMPIT 11
+#endif
 #if defined(ARDUINO_ARCH_AVR)
 
 // Use default alignment for AVR
